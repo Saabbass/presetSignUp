@@ -38,7 +38,6 @@ nav ul {
     flex: 1;
     list-style: none;
     text-align: center;
-    /* padding-right: 30px; */
     padding-left: 100px;
 }
 
@@ -59,7 +58,7 @@ nav img{
     margin-left: 40px;
 }
 
-.but{
+.btn{
     color: white;
     border-color: white;
     border-radius: 10px;
@@ -70,7 +69,7 @@ nav img{
     cursor: pointer;
 }
 
-.but:hover{
+.btn:hover{
     background-color: #ffae00;
     transition: 0.5s;
 }
@@ -86,7 +85,6 @@ nav img{
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-image: url(/site/img/imageGimp.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,11 +95,9 @@ nav img{
 
 
 .container-home{
-    /* border: #ffae00 10px solid; */
     display: flex;
     justify-content: center;
     align-items: center;
-    
     min-width: 65rem;
     min-height: 25rem;
     background-color: rgba(255, 255, 255, 0.322);
@@ -144,13 +140,11 @@ nav img{
 
 .row-two{
     width: 100%;
-    /* border: #ffae00 10px solid; */
     padding-left: 20%;
     padding-right: 20%;
 }
 
 .container-box3{
-    /* border: #ffae00 10px solid; */
     align-items: center;
     text-align: center;
     padding-top: 5%;
@@ -159,11 +153,9 @@ nav img{
     padding-bottom: 40%;
     background-color: rgba(255, 187, 0, 0.425);
     border-radius: 50px;
-    
 }
 
 .box-3{
-    /* border: 10px solid #ffae00; */
     width: 25%;
     float: left;
     margin: 4%;
@@ -294,282 +286,4 @@ footer{
     justify-content: center;
     align-items: center;
     height: 150vh;
-}
-
-/* rideRequest pagina */
-.rideRqSite{
-    /* border: #ffae00 5px solid; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150vh;
-}
-
-.rideRq{
-    width: 500px;
-    border: 10px solid rgb(255, 166, 0);
-    padding: 15px;
-    background-color: rgb(217, 216, 216);
-    border-radius: 15px;
-}
-
-.rideHead{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 40px;
-    background-color: #ffae00;
-    border: 2px solid rgb(39, 39, 39) ;
-    border-radius: 10px;
-    color: rgb(39, 39, 39);
-}
-
-.rideRq input{
-    display: block;
-    border: 2px solid rgb(216, 216, 216);
-    width: 95%;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-}
-
-.rideRq label {
-    color:rgb(97, 97, 97);
-    font-size: 18px;
-    padding: 10px;
-}
-
-.rideRq button{
-    float: right;
-    background-color: rgb(85, 85, 85);
-    padding: 10px 15px;
-    color: #fff;
-    border-radius: 5px;
-    margin-right: 10px;
-    border: none;
-}
-.rideRq button:hover{
-    background-color: rgb(231, 150, 1);
-    transition: 0.5s;
-    opacity: .7;
-}
-
-/* user & driversite + userUpdate pagina*/
-.driver{
-    /* background-color: rgb(201, 186, 186); */
-    background-color: rgba(46, 85, 139, 0.879);
-    position: relative;
-    min-height: 100vh;
-}
-
-.container{
-    /* background-image: url(../taxibedrijf/taxi.jpg); */
-    /* background-size: contain; */
-    /* padding: 20px 20px 20% 20%; */
-    /* display: center; */
-    width: 9in;
-    height: 8in;
-    overflow: hidden;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    padding: 5px;
-    margin: auto;
-}
-
-.conNav{
-    background-color: rgb(42, 40, 40);
-    border: #ffae00 solid 3px;
-    border-radius: 10px;
-    width: 60%;
-    border-spacing: 0 1em;
-    text-align: center;
-    padding: 5px;
-    margin: auto;
-}
-
-.conNav a{
-    text-decoration: underline rgb(224, 214, 214) solid;
-    color: rgb(224, 214, 214);
-    margin: 10px;
-    /* background-color: rgba(0, 132, 255, 0.801); */
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.conNav a:hover{
-    color: #ffae00;
-    transition: 0.5s;
-}
-
-.container table{
-    background-color: #888;
-    border: #ffae00 solid 3px;
-    border-radius: 10px;
-    width: 100%;
-    border-spacing: 0 1em;
-}
-
-.container table td{
-    /* border: #ffae00 5px solid;
-    border-radius: 10px; */
-    justify-content: space-between ;
-    text-align: center;
-    border-bottom: #555 solid 2px;
-    padding-bottom: 5px;
-}
-
-.container table td input{
-    padding: 2px;
-    margin: 5px;
-}
-
-.btn{
-    color: white;
-    align-content: center;
-    margin-right: 5px;
-    padding: 5px;
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.btn-danger{
-    background-color: red;
-    border-radius: 10px;
-}
-
-.btn-warning{
-    background-color: orange;
-    border-radius: 10px;
-}
-
-.btn-info{
-    background-color: rgb(0, 175, 15);
-    border-radius: 10px;
-}
-
-
-/* update pagina */
-
-.containerUp{
-        /* background-image: url(../taxibedrijf/taxi.jpg); */
-    /* background-size: contain; */
-    /* padding: 20px 20px 20% 20%; */
-    /* display: center; */
-    max-width: 16in;
-    height: 100vh;
-    scroll-behavior: smooth;
-    overflow: hidden;
-    padding-left: 2px;
-    padding-right: 5px;
-    margin: auto;
-}
-
-.containerUp table{
-    background-color: #888;
-    border: #ffae00 solid 5px;
-    border-radius: 10px;
-    width: 15.7in;
-    border-spacing: 0 1em;
-    margin: 5px;
-}
-.containerUp table th{
-    justify-content: space-between ;
-    text-align: center;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.containerUp table td{
-    /* border: #ffae00 5px solid;
-    border-radius: 10px; */
-    justify-content: space-between ;
-    text-align: center;
-    border-bottom: #555 solid 2px;
-    padding-bottom: 5px;
-}
-
-.containerUp table td input{
-    width: 1.2in;
-    padding: 2px;
-    margin: 5px;
-}
-
-.containerUp table td button{
-    color: rgb(0, 0, 0);
-    padding: 5px;
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration: none;
-    background-color: rgb(214, 214, 214);
-    border-radius: 10px;
-    border: none;
-    margin-left: 10px;
-}
-
-.containerUp table td button:hover{
-    background-color: orange;
-    opacity: 1.5s;
-}
-
-/* rides pagina */
-.container_rides{
-        /* background-image: url(../taxibedrijf/taxi.jpg); */
-    /* background-size: contain; */
-    /* padding: 20px 20px 20% 20%; */
-    /* display: center; */
-    width: 15in;
-    height: 8in;
-    overflow: hidden;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    padding: 5px;
-    margin: auto;
-}
-
-
-.con_ridesNav{
-    background-color: rgb(42, 40, 40);
-    border: #ffae00 solid 3px;
-    border-radius: 10px;
-    width: auto;
-    border-spacing: 0 1em;
-    text-align: center;
-    padding: 5px;
-    margin: auto;
-}
-
-.con_ridesNav a{
-    text-decoration: underline rgb(224, 214, 214) solid;
-    color: rgb(224, 214, 214);
-    margin: 10px;
-    /* background-color: rgba(0, 132, 255, 0.801); */
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.con_ridesNav a:hover{
-    color: #ffae00;
-    transition: 0.5s;
-}
-
-.container_rides table{
-    background-color: #888;
-    border: #ffae00 solid 3px;
-    border-radius: 10px;
-    width: 100%;
-    border-spacing: 0 1em;
-}
-
-.container_rides table td{
-    /* border: #ffae00 5px solid;
-    border-radius: 10px; */
-    justify-content: space-between ;
-    text-align: center;
-    border-bottom: #555 solid 2px;
-    padding-bottom: 5px;
-}
-
-.container_rides table td input{
-    padding: 2px;
-    margin: 5px;
 }

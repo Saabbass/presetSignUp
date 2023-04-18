@@ -1,8 +1,6 @@
 <?php
-session_start();
-// require 'database.php';
-
-
+// require 'database.php'; is ervoor om de database te kunnen gebruiken, database.php bevat code om de connectie te maken. 
+require 'database.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,25 +15,9 @@ session_start();
 </head>
 
 <body>
-    <section>
-        <nav>
-            <img class="logo" src="img/logoGimp.png" alt="">
-
-            <ul>
-                <li>
-                    <a href="home.php">Home</a>
-                    <a href="diensten.php">Diensten</a>
-                    <a href="berekenen&reserveren.php">Berekenen & Reserveren</a>
-                </li>
-            </ul>
-            <button class="but">Contact</button>
-        </nav>
-    </section>
-
-    <section class="line">
-
-    </section>
-
+    <?php
+    include('header.php');
+    ?>
     <section class="row-one">
         <div class="container-home">
             <div>
@@ -45,15 +27,10 @@ session_start();
             <a class="but-rit" href="rideRequest.php">Clickable button</a>
         </div>
     </section>
-
-    <section class="line">
-
-    </section>
-
+    <hr class="line">
     <section class="row-two">
         <div class="container-box3">
             <h2 class="text-center">Welke keuze wordt het?</h2>
-
             <div class="box-3">
                 <div>
                     <img src="img/imageGimp.png" alt="emp">
@@ -74,28 +51,20 @@ session_start();
             </div>
         </div>
     </section>
-
-    <section class="line">
-
-    </section>
-
+    <hr class="line">
     <section class="row-one">
         <div>
-
+            <!-- Ruimte voor tekst -->
         </div>
     </section>
-
     <section>
         <div>
-
+            <!-- Ruimte voor tekst -->
         </div>
     </section>
-
-    <section>
-        <footer>
-            <h3>De footer</h3>
-        </footer>
-    </section>
+    <?php
+    include('footer.php');
+    ?>
 </body>
 
 </html>
