@@ -20,7 +20,7 @@ require 'database.php';
     <?php
     include('header.php');
     ?>
-    <section class="row-one">
+    <section class="container-one">
         <div class="container-home">
             <div>
                 <h2>Preset sign-up page</h2>
@@ -31,7 +31,7 @@ require 'database.php';
     </section>
     <!-- The hr tag is used to make a line between the sections on the page -->
     <hr class="line">
-    <section class="row-two">
+    <section class="container-two">
         <div class="container-box3">
             <h2 class="text-center">Welke keuze wordt het?</h2>
             <div class="box-3">
@@ -55,7 +55,7 @@ require 'database.php';
         </div>
     </section>
     <hr class="line">
-    <section class="row-one">
+    <section class="container-one">
         <div>
             <!-- Ruimte voor tekst -->
         </div>

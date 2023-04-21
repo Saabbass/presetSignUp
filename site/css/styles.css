@@ -81,7 +81,7 @@ nav img{
     background-image: linear-gradient(rgb(41, 41, 41), #ffae00);
 }
 
-.row-one{
+.container-one{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +117,7 @@ nav img{
     color: rgb(20, 20, 20);
     margin: 5px;
 }
-.but-rit{
+.btn-rit{
     text-decoration: none;
     position: absolute;
     top: 75%;
@@ -133,12 +133,12 @@ nav img{
     text-align: center;
 }
     
-.but-rit:hover{
+.btn-rit:hover{
     background-color: #ffae00;
     transition: 0.5s;
 }
 
-.row-two{
+.container-two{
     width: 100%;
     padding-left: 20%;
     padding-right: 20%;
