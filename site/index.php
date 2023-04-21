@@ -1,5 +1,6 @@
 <?php
 // require 'database.php'; is ervoor om de database te kunnen gebruiken, database.php bevat code om de connectie te maken. 
+// require 'database.php'; uses database.php to make a connection with the database. 
 require 'database.php';
 ?>
 <!DOCTYPE html>
@@ -15,6 +16,7 @@ require 'database.php';
 </head>
 
 <body>
+    <!-- include('header.php'); uses the code in header.php and show the header -->
     <?php
     include('header.php');
     ?>
@@ -27,6 +29,7 @@ require 'database.php';
             <a class="but-rit" href="rideRequest.php">Clickable button</a>
         </div>
     </section>
+    <!-- The hr tag is used to make a line between the sections on the page -->
     <hr class="line">
     <section class="row-two">
         <div class="container-box3">
