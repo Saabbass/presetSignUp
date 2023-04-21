@@ -54,6 +54,7 @@ require 'database.php';
             </div>
         </div>
     </section>
+    <!-- The hr tag is used to make a line between the sections on the page -->
     <hr class="line">
     <section class="container-one">
         <div>
@@ -65,6 +66,7 @@ require 'database.php';
             <!-- Ruimte voor tekst -->
         </div>
     </section>
+    <!-- include('footer.php'); uses the code in footer.php and show the footer -->
     <?php
     include('footer.php');
     ?>
