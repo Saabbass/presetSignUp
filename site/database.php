@@ -1,9 +1,9 @@
 <?php
 // Database configuratie
-$host  = "localhost";
+$host  = "mariadb";
 $dbuser = "root";
 $dbpass = "password";
-$dbname = "mariadb";
+$dbname = "members";
 
 // Maak een  database connectie
 $conn = mysqli_connect($host, $dbuser, $dbpass, $dbname);
