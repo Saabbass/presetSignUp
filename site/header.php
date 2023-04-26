@@ -10,11 +10,19 @@
 </head>
 
 <body>
-    <img class="logo" src="img/logoGimp.png" alt="Stock Image">
-    <?php
-    include('nav.php');
-    ?>
-    <hr class="line">
+    <section class="header_nav">
+        <header class="container">
+            <section class="container_width">
+                <div class="nav">
+                    <img class="logo" src="img/logoGimp.png" alt="Stock Image">
+                    <?php
+                    include('nav.php');
+                    ?>
+                    <hr class="line">
+                </div>
+            </section>
+        </header>
+    </section>
 </body>
 
 </html>
