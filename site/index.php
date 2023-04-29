@@ -12,7 +12,7 @@ require 'database.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="img/logoGimp.png">
     <title>Homepage</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/styles.css?v=<?php echo time(); ?>">
 </head>
 
 <body>
