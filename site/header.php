@@ -11,17 +11,17 @@
 
 <body>
     <section class="header_nav">
-        <header class="container">
-            <section class="container_width">
-                <div class="nav">
+        <div class="container">
+            <div class="container_width">
+                <div class="header">
                     <img class="logo" src="img/logoGimp.png" alt="Stock Image">
                     <?php
                     include('nav.php');
                     ?>
-                    <hr class="line">
                 </div>
-            </section>
-        </header>
+            </div>
+        </div>
+        <hr class="line">
     </section>
 </body>
 
