@@ -119,11 +119,21 @@ nav img{
     background-image: linear-gradient(rgb(41, 41, 41), #ffae00);
 }
 
+.container_img{
+    background-image: url(../img/imageGimp.png);
+    image-rendering: optimizeQuality;
+    image-rendering: optimizeSpeed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 60vh;
+}
+
 .container-one{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/imageGimp.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

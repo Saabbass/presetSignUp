@@ -20,17 +20,17 @@ require 'database.php';
     <?php
     include('header.php');
     ?>
-    <div class="container">
-        <div class="container_width">
-            <section class="container-one">
-                <div class="container-home">
-                    <div>
-                        <h2>Preset sign-up page</h2>
-                        <p>A simple sign-up page</p>
+    <div class="container_img">
+        <div class="container">
+            <div class="container_width">
+                <section class="container-one">
+                    <div class="container-home">
+                            <h2>Preset sign-up page</h2>
+                            <p>A simple sign-up page</p>
+                        <a class="but-rit" href="">Clickable button</a>
                     </div>
-                    <a class="but-rit" href="rideRequest.php">Clickable button</a>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </div>
     <!-- The hr tag is used to make a line between the sections on the page -->
