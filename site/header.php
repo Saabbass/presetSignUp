@@ -21,7 +21,6 @@
                 </div>
             </div>
         </div>
-        <hr class="line">
     </section>
 </body>
 

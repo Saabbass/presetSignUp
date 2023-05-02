@@ -23,53 +23,41 @@ require 'database.php';
     <div class="container_img">
         <div class="container">
             <div class="container_width">
-                <section class="container-one">
-                    <div class="container-home">
-                            <h2>Preset sign-up page</h2>
-                            <p>A simple sign-up page</p>
-                        <a class="but-rit" href="">Clickable button</a>
+                <div class="box_container">
+                    <div class="box">
+                        <h2>Preset sign-up page</h2>
+                        <p>A simple sign-up page</p>
+                        <a class="btn_link" href="">Clickable button</a>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
     </div>
     <!-- The hr tag is used to make a line between the sections on the page -->
     <hr class="line">
-    <section class="container-two">
-        <div class="container-box3">
-            <h2 class="text-center">Welke keuze wordt het?</h2>
-            <div class="box-3">
-                <div>
-                    <img src="img/imageGimp.png" alt="emp">
-                    <h3>Bezorgen</h3>
-                </div>
-            </div>
-            <div class="box-3">
-                <div>
-                    <img src="img/imageGimp.png" alt="emp">
-                    <h3>Bezorgen</h3>
-                </div>
-            </div>
-            <div class="box-3">
-                <div>
-                    <img src="img/imageGimp.png" alt="emp">
-                    <h3>Bezorgen</h3>
+    <div class="container">
+        <div class="container_width">
+            <div class="box_container">
+                <div class="box_card_container">
+                    <h2 class="card_title">Welke keuze wordt het?</h2>
+                    <div class="card_container">
+                        <div class="card">
+                            <img src="img/imageGimp.png" alt="error">
+                            <h3>card 1</h3>
+                        </div>
+                        <div class="card">
+                            <img src="img/imageGimp.png" alt="error">
+                            <h3>card 2</h3>
+                        </div>
+                        <div class="card">
+                            <img src="img/imageGimp.png" alt="error">
+                            <h3>card 3</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- The hr tag is used to make a line between the sections on the page -->
-    <hr class="line">
-    <section class="container-one">
-        <div>
-            <!-- Ruimte voor tekst -->
-        </div>
-    </section>
-    <section>
-        <div>
-            <!-- Ruimte voor tekst -->
-        </div>
-    </section>
+    </div>
     <!-- include('footer.php'); uses the code in footer.php and show the footer -->
     <?php
     include('footer.php');

@@ -13,12 +13,12 @@
     <nav>
         <ul>
             <li>
-                <a href="home.php">Home</a>
-                <a href="diensten.php">Diensten</a>
-                <a href="berekenen&reserveren.php">Berekenen & Reserveren</a>
+                <a href="index.php">Home</a>
+                <a href="">Diensten</a>
+                <a href="">Over ons</a>
             </li>
         </ul>
-        <button class="btn">Contact</button>
+        <button class="btn_contact">Contact</button>
     </nav>
 </body>
 
