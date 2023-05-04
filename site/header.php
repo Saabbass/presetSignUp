@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <section class="header_nav">
+    <div class="header_nav">
         <div class="container">
             <div class="container_width">
                 <div class="header">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </body>
 
 </html>

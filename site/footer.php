@@ -17,9 +17,9 @@
                     <h3>The footer</h3>
                     <h3>The footer</h3>
                     <h3>The footer</h3>
-                    </div>
                 </div>
             </div>
+        </div>
     </div>
 </body>
 

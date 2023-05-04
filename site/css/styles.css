@@ -95,6 +95,10 @@ nav li a:hover {
 }
 
 /* home pagina */
+.page_main_height{
+    min-height: 100vh;
+}
+
 .line{
     height: 10px;
     width: auto;
