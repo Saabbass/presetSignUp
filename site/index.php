@@ -39,7 +39,7 @@ require 'database.php';
         <div class="container_width">
             <div class="box_container">
                 <div class="box_card_container">
-                    <h2 class="card_title">Welke keuze wordt het?</h2>
+                    <h2 class="card_title">Make a choice?</h2>
                     <div class="card_container">
                         <div class="card">
                             <img src="img/imageGimp.png" alt="error">

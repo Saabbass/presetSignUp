@@ -80,8 +80,8 @@ nav li a:hover {
 }
 
 .btn_contact{
-    color: white;
-    border-color: white;
+    color: rgb(224, 214, 214);
+    border-color: rgb(224, 214, 214);
     border-radius: 10px;
     align-content: center;
     padding: 5px;
@@ -228,65 +228,116 @@ nav li a:hover {
     margin-top: 10px;
 }
 
-footer{
-    background-color: rgb(42, 40, 40);
-    position: static;
-    bottom: 0;
-    width: 100%;
-    height: 10rem;  
+.footer_container{
+    background-color: rgb(32, 32, 32);
+}
+
+.footer{
+    align-content: bottom;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.footer h3{
+    color: rgb(224, 214, 214);
 }
 
 /* login pagina + signup pagina*/
-.login{
-    background-color: rgb(42, 40, 40);
+.form_align{
+    width: 100%;
     display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    margin: 40px 0px;
 }
 
-.inloggen{
-    width: 500px;
+form{
+    width: 700px;
     border: 2px solid #ccc;
     padding: 30px;
     background-color: #fff;
     border-radius: 15px;
 }
 
-.log{
+.form_head{
     text-align: center;
     font-size: 30px;
     margin-bottom: 40px;
 }
 
-.inloggen input{
+.form_group label{
+    color:#888;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.form_group input{
     display: block;
     border: 2px solid #ccc;
     width: 95%;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
 }
 
-.inloggen label {
+.form_group input:hover{
+    border-color: rgb(0, 60, 180);
+}
+
+.form_group_radio label{
     color:#888;
     font-size: 18px;
-    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.inloggen button{
+.form_group_radio label:hover{
+    color: rgb(0, 60, 180);
+}
+
+.form_group_radio input{
+    width: 2rem;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_submit{
     float: right;
-    background-color: #555;
+    background-color: rgb(0, 60, 180);
     padding: 10px 15px;
     color: #fff;
     border-radius: 5px;
     margin-right: 10px;
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-.inloggen button:hover{
-    background-color: #ffae00;
-    transition: 0.5s;
-    opacity: .7;
+
+.button_submit:hover{
+    background-color: rgb(0, 100, 180);
+}
+
+.form_content_switch{
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color:#555;
+    transition: all 0.3s ease;
+}
+
+.form_content_switch:hover{
+    text-decoration: underline;
+    color: rgb(0, 60, 180);
 }
 
 .error{
@@ -304,25 +355,4 @@ footer{
     width: 95%;
     border-radius: 5px;
     margin: 20px auto;
-}
-
-.ca{
-    font-size: 14px;
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    color:#555;
-}
-
-.ca:hover{
-    text-decoration: underline;
-}
-
-/* signup gedeelte */
-.signUp{
-    background-color: rgb(42, 40, 40);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150vh;
 }
