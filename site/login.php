@@ -50,10 +50,12 @@
             </div>
         </div>
     </div>
+    <!-- start footer -->
     <!-- begin footer -->
     <?php
     include('footer.php');
     ?>
+    <!-- end footer -->
     <!-- einde footer -->
 </body>
 

@@ -66,20 +66,20 @@
                             <?php } ?>
                         </div>
                         <div class="form_group">
-                            <label for="stad">Stad</label>
+                            <label for="city">City</label>
                             <?php if (isset($_GET['stad'])) { ?>
-                                <input type="text" name="stad" id="stad" value="<?php echo $_GET['stad']; ?>">
+                                <input type="text" name="city" id="city" value="<?php echo $_GET['city']; ?>">
                             <?php } else { ?>
-                                <input type="text" name="stad" id="stad" placeholder="stad">
+                                <input type="text" name="city" id="city" placeholder="city">
                             <?php } ?>
                         </div>
                         <div class="form_group">
-                            <label for="wachtwoord">Wachtwoord</label>
-                            <input type="password" name="wachtwoord" id="wachtwoord" placeholder="wachtwoord">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" placeholder="password">
                         </div>
                         <div class="form_group">
-                            <label for="check_wachtwoord">Herhaal wachtwoord</label>
-                            <input type="password" name="check_wachtwoord" id="check_wachtwoord" placeholder="herhaal wachtwoord">
+                            <label for="check_password">repeat password</label>
+                            <input type="password" name="check_password" id="check_password" placeholder="repeat password">
                         </div>
                         <div class="form_group_radio">
                             <input type="radio" id="role1" name="role" value="administrator">
@@ -94,18 +94,20 @@
                             <label for="role3">Customer</label>
                         </div>
                         <div>
-                            <a href="login.php" class="form_content_switch">Ik heb al een account</a>
-                            <button class="button_submit" type="sumbit">Maak nieuwe gebruiker</button>
+                            <a href="login.php" class="form_content_switch">Already have a account</a>
+                            <button class="button_submit" type="sumbit">Register account</button>
                         </div>
                     </form>
                 </section>
             </div>
         </div>
     </div>
+    <!-- start footer -->
     <!-- begin footer -->
     <?php
     include('footer.php');
     ?>
+    <!-- end footer -->
     <!-- einde footer -->
 </body>
 
