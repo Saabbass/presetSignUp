@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nieuw Product</title>
+    <title>SignUp page</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -21,7 +21,7 @@
             <div class="container_width">
                 <section class="form_align">
                     <form action="session_signUp.php" method="post">
-                        <h1 class="form_head">Maak een nieuwe gebruiker aan</h1>
+                        <h1 class="form_head">Make a new account</h1>
                         <div>
                             <?php if (isset($_GET['error'])) { ?>
                                 <p class="error"><?php echo $_GET['error']; ?></p>
@@ -42,19 +42,19 @@
                         </div>
                         <div class="form_group">
                             <!-- for="" is voor het drukken op de naam / label, dan wordt de input automatisch aangetikt -->
-                            <label for="voornaam">Voornaam</label>
-                            <?php if (isset($_GET['voornaam'])) { ?>
-                                <input type="text" name="voornaam" id="voornaam" value="<?php echo $_GET['voornaam']; ?>">
+                            <label for="firstname">Firstname</label>
+                            <?php if (isset($_GET['firstname'])) { ?>
+                                <input type="text" name="firstname" id="firstname" value="<?php echo $_GET['firstname']; ?>">
                             <?php } else { ?>
-                                <input type="text" name="voornaam" id="voornaam" placeholder="achternaam">
+                                <input type="text" name="firstname" id="firstname" placeholder="achternaam">
                             <?php } ?>
                         </div>
                         <div class="form_group">
-                            <label for="achternaam">Achternaam</label>
-                            <?php if (isset($_GET['achternam'])) { ?>
-                                <input type="text" name="achternaam" id="achternaam" value="<?php echo $_GET['achternaam']; ?>">
+                            <label for="lastname">Lastname</label>
+                            <?php if (isset($_GET['lastname'])) { ?>
+                                <input type="text" name="lastname" id="lastname" value="<?php echo $_GET['lastname']; ?>">
                             <?php } else { ?>
-                                <input type="text" name="achternaam" id="achternaam" placeholder="achternaam">
+                                <input type="text" name="lastname" id="lastname" placeholder="lastname">
                             <?php } ?>
                         </div>
                         <div class="form_group">

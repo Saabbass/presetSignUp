@@ -14,8 +14,8 @@
         <ul>
             <li>
                 <a href="index.php">Home</a>
-                <a href="">Diensten</a>
-                <a href="">Over ons</a>
+                <a href="">Services</a>
+                <a href="">About us</a>
             </li>
         </ul>
         <a href="login.php">login</a>
