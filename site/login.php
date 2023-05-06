@@ -12,17 +12,19 @@
 
 
 <body>
+    <!-- adding the navbar / header -->
     <!-- begin ingoegen van navbar / header -->
     <?php
     include('header.php');
     ?>
     <!-- einde invoegen van navbar / header -->
-    <!-- action en method zijn atributen -->
     <div class="container_img">
         <div class="page_main_height">
             <div class="container">
                 <div class="container_width">
                     <section class="form_align">
+                        <!-- action and method are atributes -->
+                        <!-- action en method zijn atributen -->
                         <form action="session_login.php" method="post">
                             <div>
                                 <h2 class="form_head">Inloggen</h2>
