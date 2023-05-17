@@ -60,7 +60,8 @@ require 'database.php';
             </div>
         </div>
     </div>
-    <!-- include('footer.php'); uses the code in footer.php and show the footer -->
+    <!-- include('footer.php'); uses php to show the footer -->
+    <!-- include('footer.php'); gebruikt php om de footer te laten zien -->
     <?php
     include('footer.php');
     ?>
